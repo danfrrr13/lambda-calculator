@@ -1,0 +1,69 @@
+html {
+    font-size: 62.4%;
+}
+.container {
+    width: 375px;
+    background: #a81d36;
+    height: auto;
+    padding: 20px;
+}
+
+.buttons {
+    display: flex;
+
+}
+
+.left {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.right {
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.numberButton {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 0px;
+    background-color: #184379;
+    color: #ffffff;
+    font-size: 2.6rem;
+    margin: 10px;
+}
+
+.operatorButton {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 0px;
+    background-color: #237293;
+    color: #ffffff;
+    font-size: 2.6rem;
+    margin: 10px;
+}
+
+.specialButton {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 0px;
+    background-color: #225d9e;
+    color: #ffffff;
+    font-size: 2.6rem;
+    margin: 10px;
+}
+
+.display {
+    width: 90%;
+    height: 70px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #323335;
+}
